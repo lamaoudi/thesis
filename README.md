@@ -21,8 +21,8 @@ Obtaining the necessary data to run the planning models can be broadly classifie
 
 (1) **GADM Country Boundaries:** https://gadm.org/data.html
    *-- Format required: ESRI Shp file
-   
-   SAVE: data/gadm/gadm36_'country-code'_shp/
+    
+    SAVE: data/gadm/gadm36_'country-code'_shp/
     
 (2) **Facebook Settlement Data:** https://www.ciesin.columbia.edu/data/hrsl/
     *-- Fromat required: .csv file
