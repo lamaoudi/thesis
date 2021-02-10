@@ -20,7 +20,7 @@ Obtaining the necessary data to run the planning models can be broadly classifie
 **Publicly Available Data Needed (for respective country):**
 
 (1) **GADM Country Boundaries:** https://gadm.org/data.html
-   *-- Format required: ESRI Shp file*
+   *-- Format required: ESRI Shp file
    
    SAVE: data/gadm/gadm36_'country-code'_shp/
     
