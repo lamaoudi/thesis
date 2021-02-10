@@ -14,9 +14,10 @@ Obtaining the necessary data to run the planning models can be broadly classifie
 
 **Description of how to run each part:** 
 
-*Part 1* "1_loadHHLD.py" 
 
-Publicly Available Data Needed (for respective country):
+**Part 1** "1_loadHHLD.py" 
+
+**Publicly Available Data Needed (for respective country):**
 
 (1) **GADM Country Boundaries:** https://gadm.org/data.html
    *-- Format required: ESRI Shp file*
@@ -32,11 +33,13 @@ Publicly Available Data Needed (for respective country):
     
 **OUTPUT:** outputs/_1/---  < Shapefile of LV households
 
-*Part 2* "2_electrification-statis.py" 
 
-Publicly Available Data Needed (for respective country):
 
-(1) **GADM Country Boundaries:** 
+**Part 2** "2_electrification-statis.py" 
+
+**Publicly Available Data Needed (for respective country):**
+
+(1) **GADM Country Boundaries** 
     
 (2) **Falchetta Demand Tier Raster:** https://github.com/giacfalk/Electrification_SSA_data
     *-- Fromat required: .netcdf file (script alreadyran to convert to geotiff)
@@ -46,34 +49,45 @@ Publicly Available Data Needed (for respective country):
 (3) **Country's Multi-Tier Framework:** [link manually searched]
     *-- Format required: .csv file (template available - manually input values)
  
-**Functions:** utils/functions_2.py
+    Functions: utils/functions_2.py
     
-**OUTPUT:** outputs/_2/---  < 2 Shapefiles assigning (1) tier and (2) extracting only electrified (i.e. tier >0) to LV households or any load. 
+    OUTPUT: outputs/_2/---  < 2 Shapefiles assigning (1) tier and (2) extracting only electrified (i.e. tier >0) to LV households or any load. 
 
-*Part 3* 
 
-*3.1* Create Reference Network Model Input Files for LVC in python: "3_create-LVC.py" 
 
-**OUTPUT:** outputs/_3/---  < .csv file < manually convert in Excel to txt.file 
+**Part 3** 
 
-TODO: *3.2* Create Reference Network Model Input Files for MVC in python: "3-2_create-MVC.py" 
+**3.1** Create Reference Network Model Input Files for LVC in python: "3_create-LVC.py" 
+
+    OUTPUT: outputs/_3/---  < .csv file < manually convert in Excel to txt.file 
+
+
+
+TODO: **3.2** Create Reference Network Model Input Files for MVC in python: "3-2_create-MVC.py" 
 
 -- Only Available in "scratch" Jupyter Notebook Files -- 
 
-TODO: *3.3* Automate Transmission / HV Substations Identification from OpenStreetMaps API and converting them to RNM inputs 
+
+
+TODO: **3.3** Automate Transmission / HV Substations Identification from OpenStreetMaps API and converting them to RNM inputs 
             OR (if unavailable) manually plot location of substations from publicly available sketch/layout of grid network 
             
  -- Only Available in "scratch" Jupyter Notebook Files -- 
 
 
-Run RNM with (1) LVC, (2) MVC, (3) Catalog, (4) Substations 
-**OUTPUT:** outputs/_4/---  < .shape file 
+    Run RNM with (1) LVC, (2) MVC, (3) Catalog, (4) Substations 
 
-TODO: *Part 4* "4_extractMVC.py"
+    OUTPUT:** outputs/_4/---  < .shape file 
 
-NEEDED: (1) Google Maps Places API Key
-        (2) Raster of country w/ centroid coordinates available 
-        (3) .csv file of searchable list of businesses 
+
+
+TODO: **Part 4** "4_extractMVC.py"
+
+NEEDED: 
+
+    (1) Google Maps Places API Key
+    (2) Raster of country w/ centroid coordinates available 
+    (3) .csv file of searchable list of businesses 
 
  -- To be Finalized, but method has been validated- find in Jupyter Notebook scratch -- 
 
