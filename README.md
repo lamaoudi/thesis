@@ -78,7 +78,7 @@ TODO: **3.3** Automate Transmission / HV Substations Identification from OpenStr
 
     Run RNM with (1) LVC, (2) MVC, (3) Catalog, (4) Substations 
 
-    OUTPUT:** outputs/_4/---  < .shape file 
+    OUTPUT: outputs/_4/---  < .shape file 
 
 
 
