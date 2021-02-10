@@ -28,10 +28,11 @@ Obtaining the necessary data to run the planning models can be broadly classifie
     *-- Fromat required: .csv file
     
     SAVE: data/fb_pop/population_'country-code'/population_'country-code'.csv
-  
-**Functions:** utils/functions_1.py
+
     
-**OUTPUT:** outputs/_1/---  < Shapefile of LV households
+    Functions: utils/functions_1.py
+    
+    OUTPUT: outputs/_1/---  < Shapefile of LV households
 
 
 
