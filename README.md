@@ -1,6 +1,6 @@
 ## Master's Thesis Project
 
-Objective: Develop a tool/pipeline to synthesize all required inputs for electrification planning models from publiclly available data. This will imporve electrifican planning models' scalability and enable large-region analyses. 
+Objective: Develop a tool/pipeline to synthesize all required inputs for electrification planning models from publiclly available data. This will improve electrifican planning models' scalability and enable large-region analyses. 
 
 Obtaining the necessary data to run the planning models can be broadly classified into four parts: 
 
@@ -8,7 +8,7 @@ Obtaining the necessary data to run the planning models can be broadly classifie
 
 (2) Delineation of productive loads or households as electrified or unelectrified (unelectrified includes infrastructure under, but not connected, to the grid).
 
-(3) Estimation of the current medium voltage network.
+(3) Estimation of the current Medium Voltage network.
 
 (4) Identification of demand and location of ALL productive loads via. Google Maps API Search 
 
@@ -76,7 +76,7 @@ TODO: **3.3** Automate Transmission / HV Substations Identification from OpenStr
  -- Only Available in "scratch" Jupyter Notebook Files -- 
 
 
-    Run RNM with (1) LVC, (2) MVC, (3) Catalog, (4) Substations 
+    Run RNM/REM with (1) LVC, (2) MVC, (3) Catalog, (4) Substations 
 
     OUTPUT: outputs/_4/---  < .shape file 
 
