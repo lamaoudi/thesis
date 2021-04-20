@@ -25,7 +25,7 @@ Obtaining the necessary data to run the planning models can be broadly classifie
     SAVE: data/gadm/gadm36_'country-code'_shp/
     
 (2) **Facebook Settlement Data:** https://www.ciesin.columbia.edu/data/hrsl/
-    *-- Fromat required: .csv file
+    *-- Format required: .csv file
     
     SAVE: data/fb_pop/population_'country-code'/population_'country-code'.csv
 
@@ -36,14 +36,14 @@ Obtaining the necessary data to run the planning models can be broadly classifie
 
 
 
-**Part 2** "2_electrification-statis.py" 
+**Part 2** "2_electrification-status.py" 
 
 **Publicly Available Data Needed (for respective country):**
 
 (1) **GADM Country Boundaries** 
     
 (2) **Falchetta Demand Tier Raster:** https://github.com/giacfalk/Electrification_SSA_data
-    *-- Fromat required: .netcdf file (script alreadyran to convert to geotiff)
+    *-- Format required: .netcdf file (script alreadyran to convert to geotiff)
     
     SAVE: data/falchetta_tier/tierofaccess_SSA_2018.tiff
     
